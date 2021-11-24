@@ -1,0 +1,20 @@
+.labels{
+	text-transform: uppercase;
+	padding: 2%;
+	font-weight: bolder;
+}
+#form-container{
+	padding: 10%;
+	border-radius: 4%;
+	background-color: grey;
+	 box-shadow: 5px 10px green;
+}
+.input-group input{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 2%;
+	border: 0;
+}
+.form-error{
+	color: red;
+}

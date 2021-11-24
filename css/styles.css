@@ -1,0 +1,51 @@
+body{
+	background-image: url('/images/wp1.jpg');\
+	background-size: cover;
+	background-position: center;
+}
+.labels{
+	text-transform: uppercase;
+	padding: 2%;
+	font-weight: bolder;
+	color: white;
+}
+#form-container{
+	padding: 10%;
+	border-radius: 4%;
+	background: black;
+    box-shadow: 1px 3px 5px limegreen, 1px 3px 7px limegreen;
+
+}
+#form-container:hover{
+	box-shadow: 1px 3px 5px limegreen, 1px 3px 7px limegreen, 1px 4px 9px #fff;
+}
+.input-group input{
+	color: white;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 2%;
+	border: 0;
+	border-bottom: 1px solid limegreen;
+	border-color: limegreen;
+	background: none;
+}
+input:focus{
+	border: 0;
+	border-bottom: 1px solid green;
+	outline: none;
+}
+.form-error{
+	color: red;
+}
+.nav-heading{
+	color: white;
+	font-weight: bolder;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 2.0rem;
+	text-shadow: 2px 2px 4px limegreen;
+}
+.nav-text{
+	color: limegreen;
+	font-weight: bolder;
+	text-shadow: 2px 2px 4px grey;
+}
