@@ -1,5 +1,5 @@
 body{
-	background-image: url('images/wp1.jpg');
+	background-image: url('/images/wp1.jpg');
 	background-size: cover;
 	background-position: center;
 }
@@ -12,7 +12,7 @@ body{
 #form-container{
 	padding: 10%;
 	border-radius: 4%;
-	background: black;
+	background: transparent;
     box-shadow: 1px 3px 5px limegreen, 1px 3px 7px limegreen;
 
 }
